@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body general */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Contenedor acciones (search + create) */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Search */
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #333;
+}
+
+.search-icon {
+  margin-right: 5px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+/* Botón Create Poll */
+.create-poll-btn {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.create-poll-btn:hover {
+  background-color: #ff5252;
+}
